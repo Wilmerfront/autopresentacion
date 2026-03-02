@@ -25,3 +25,15 @@ footer {
     border-top: 1px solid #ccc;
     padding-top: 20px;
 }
+.foto_perfil{
+
+    
+    width: 150px;          /* Ancho de la foto */
+    height: 150px;         /* Alto de la foto (debe ser igual al ancho) */
+    border-radius: 50%;    /* Esto la hace circular */
+    object-fit: cover;     /* Evita que la imagen se estire o se deforme */
+    border: 3px solid #007acc; /* Un borde azul para combinar con tus títulos */
+    display: block;        /* Permite usar márgenes para centrar */
+    margin: 0 auto 20px;   /* Centra la imagen y da espacio abajo */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Una sombra suave para dar profundidad */
+}
